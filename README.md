@@ -102,15 +102,17 @@ the application.
 A reliable model for forecasting short-term stock prices was found for each selected stock as seen in Chapter 2. Furthermore, an R Shiny web application was 
 deployed to provide real-time forecasts for the next trading day.
 
+https://sirinabraham.shinyapps.io/Stock_Price_Predictor/
+
 
 ## 4.2	Lessons Learned
 
-	Our team learned quite a few valuable lessons from our semester project. First, it is important to choose appropriate training periods when looking at data 
-  due to constantly changing stock trends. Models with shorter training periods are generally more accurate than those with longer training periods due to 
-  inherent data fluctuation. Additionally, the inherent volatility of the market is proven by naïve forecasts which provide acceptable MAPE values. 
-  Furthermore, stock prices are impacted by external factors including macroeconomic trends, sentiment, government policies, and more. Finally, a good prediction 
-  model should serve as a decision support tool rather than a decision-making tool for the analyst. 
+Our team learned quite a few valuable lessons from our semester project. First, it is important to choose appropriate training periods when looking at data 
+due to constantly changing stock trends. Models with shorter training periods are generally more accurate than those with longer training periods due to 
+inherent data fluctuation. Additionally, the inherent volatility of the market is proven by naïve forecasts which provide acceptable MAPE values. 
+Furthermore, stock prices are impacted by external factors including macroeconomic trends, sentiment, government policies, and more. Finally, a good prediction 
+model should serve as a decision support tool rather than a decision-making tool for the analyst. 
 
 ## 4.3	Next Steps
 
-	For potential future applications of this project, models could be built incorporating other features such as the company’s historic growth rate, future expected earnings, macroeconomic trends, etc. to improve model accuracy. Also, more sophisticated deep learning models could be explored such as long short-term memory (LSTM) algorithms. Additionally, day trading data could be back-tested with the prediction models to simulate profitability. Deep learning models could be added to the R Shiny app as well. 
+For potential future applications of this project, models could be built incorporating other features such as the company’s historic growth rate, future expected earnings, macroeconomic trends, etc. to improve model accuracy. Also, more sophisticated deep learning models could be explored such as long short-term memory (LSTM) algorithms. Additionally, day trading data could be back-tested with the prediction models to simulate profitability. Deep learning models could be added to the R Shiny app as well. 
