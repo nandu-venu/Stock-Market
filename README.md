@@ -36,30 +36,30 @@ a reliable model was produced. We carefully selected training and testing datase
 # 2. Analysis
 
 ## 2.1	Naive
-	The naïve forecasting method was found to produce reasonable forecasts within a small testing period (e.g. one week). However, this model cannot account for 
-  internal fluctuations in stock prices caused from buying and selling. Because of this, we determined that better models could be found to account for fluctuation
-  and short-term trends. 
+The naïve forecasting method was found to produce reasonable forecasts within a small testing period (e.g. one week). However, this model cannot account for 
+internal fluctuations in stock prices caused from buying and selling. Because of this, we determined that better models could be found to account for fluctuation
+and short-term trends. 
   
 ## 2.2	Regression
-	We next looked at linear regression models for each stock. These models captured short-term trend but again did not account for volume of stocks exchanged. 
-  The naïve method was more accurate than the regression method for short term prediction. 
+We next looked at linear regression models for each stock. These models captured short-term trend but again did not account for volume of stocks exchanged. 
+The naïve method was more accurate than the regression method for short term prediction. 
 
 ## 2.3	Rolling Arima
-	A rolling ARIMA model was used for each selected stock. The training window was two weeks, moving forward with each subsequent forecast. We found this
-  prediction accuracy to be much better than the naïve method for short- to medium-term forecasting. 
+A rolling ARIMA model was used for each selected stock. The training window was two weeks, moving forward with each subsequent forecast. We found this
+prediction accuracy to be much better than the naïve method for short- to medium-term forecasting. 
 
 ## 2.4	Simple Neural Networks
-	Using simple neural networks allowed us to capture short-term trend and daily buying/selling relatively well when compared to ETS and regression methods. It was 
-  found to be useful for medium- to short-term forecasts. 
+Using simple neural networks allowed us to capture short-term trend and daily buying/selling relatively well when compared to ETS and regression methods. It was 
+found to be useful for medium- to short-term forecasts. 
 
 ## 2.5	Deep Learning
-	We fitted a deep learning model containing four layers and 16 to 32 nodes for each individual stock. For Ford and Google, the DL models captured short-term 
-  volume and trend quite well. However, for Amazon we noticed a potential risk in overfitting the data depending on the training period selected. 
+We fitted a deep learning model containing four layers and 16 to 32 nodes for each individual stock. For Ford and Google, the DL models captured short-term 
+volume and trend quite well. However, for Amazon we noticed a potential risk in overfitting the data depending on the training period selected. 
 
 ## 2.6	Accuracy Table for Model Forecasts
-	Incorporating the feedback provided during the final project presentation, we computed the average MAPE values for each method by taking the average with 
-  rolling training and testing set. In essence, each model was tested with different training and test sets and the MAPE values were averaged. Consider the table 
-  below to view the average MAPE values.
+Incorporating the feedback provided during the final project presentation, we computed the average MAPE values for each method by taking the average with 
+rolling training and testing set. In essence, each model was tested with different training and test sets and the MAPE values were averaged. Consider the table 
+below to view the average MAPE values.
 
 Model	Google	Tesla	Ford	Amazon
 Naive	3.46	8.27	5.05	5.8
