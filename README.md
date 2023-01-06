@@ -2,10 +2,10 @@
 # 1. Introduction
 
 ## 1.1	What are the stock exchanges? 
-         Stock exchanges are marketplaces in which U.S. financial securities, commodities, derivatives and other financial instruments are traded. While in the past,
-         traders and brokers used to meet physically in a stock exchange building to trade stocks, now most of the financial trading happens electronically and 
-         automatically. The two major U.S. financial securities markets are the New York Stock Exchange and Nasdaq. There are around hundreds of companies listed 
-         between these two exchanges.
+Stock exchanges are marketplaces in which U.S. financial securities, commodities, derivatives and other financial instruments are traded. While in the past,
+traders and brokers used to meet physically in a stock exchange building to trade stocks, now most of the financial trading happens electronically and 
+automatically. The two major U.S. financial securities markets are the New York Stock Exchange and Nasdaq. There are around hundreds of companies listed 
+between these two exchanges.
 
 ## 1.2	Project Motivation
 COVID-19 drastically impacted the stock exchanges and markets in almost all sectors of industry. Therefore, organizations had to adjust their strategies depending 
